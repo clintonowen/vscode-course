@@ -5,7 +5,6 @@
   <title>My New Editor!</title>
 </head>
 <body>
-  
   <!-- ul>li*5>a#id-${Hello} -->
   <ul>
     <li><a href="" id="id-1">Hello</a></li>
@@ -15,5 +14,16 @@
     <li><a href="" id="id-5">Hello</a></li>
   </ul>
 
+  <script>
+    const toddler = {
+      age: 3.2,
+      speak: function() {
+        const ageInMonths = Math.round(this.age * 12);
+        return `i am ${ageInMonths} months old!`;
+      }
+    };
+
+    toddler.speak();
+  </script>
 </body>
 </html>
